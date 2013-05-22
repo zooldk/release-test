@@ -11,6 +11,10 @@
 This is just a test project, for testing out maven release plugin et. al.
 	</description>
 	<url>https://github.com/zooldk/release-test</url>
+	
+	<scm>
+		<connection>scm:git:https://github.com/zooldk/release-test.git</connection>
+	</scm>
 
 	<developers>
 		<developer>
