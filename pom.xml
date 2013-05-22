@@ -14,7 +14,6 @@ This is just a test project, for testing out maven release plugin et. al.
 	
 	<scm>
 		<connection>scm:git:https://github.com/zooldk/release-test.git</connection>
-    <tag>HEAD</tag>
   </scm>
 
 	<developers>
