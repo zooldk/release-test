@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dk.braintrust.os.release</groupId>
 	<artifactId>test</artifactId>
-	<version>0.1.2</version>
+	<version>0.1.3-SNAPSHOT</version>
 	<name>Release tester</name>
 	<packaging>jar</packaging>
 	<description>
@@ -14,7 +14,6 @@ This is just a test project, for testing out maven release plugin et. al.
 	
 	<scm>
 		<connection>scm:git:https://github.com/zooldk/release-test.git</connection>
-	  <tag>test-0.1.2</tag>
   </scm>
 
 	<developers>
@@ -77,12 +76,12 @@ This is just a test project, for testing out maven release plugin et. al.
         <repository>
             <id>fakerepo</id>
             <name>Local file system</name>
-            <url>file:////Users/slarsen/Development/release-test/tmp/repo</url>
+            <url>file:////tmp/repo</url>
         </repository>
         <snapshotRepository>
             <id>fakesnapshotrepo</id>
             <name>Local file system</name>
-            <url>file:////Users/slarsen/Development/release-test/tmp/snapshots</url>
+            <url>file:////tmp/snapshots</url>
         </snapshotRepository>
     </distributionManagement>
 	
