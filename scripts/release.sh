@@ -9,7 +9,7 @@ fi
 while true; do
     read -p "Do you wish to release?" yn
     case $yn in
-        [Yy]* ) mvn release:prepare -Dusername=$1 -Dpassword=$2 && mvn release:perform; break;;
+        [Yy]* ) mvn release:clean release:prepare release:perform -Dusername=$1 -Dpassword=$2; break;;
         [Nn]* ) exit;;
         * ) echo "Please answer yes or no.";;
     esac
