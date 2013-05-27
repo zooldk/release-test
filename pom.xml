@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>dk.braintrust.os.release</groupId>
 	<artifactId>test</artifactId>
-	<version>0.1.12-SNAPSHOT</version>
+	<version>0.1.12</version>
 	<name>Release tester</name>
 	<packaging>jar</packaging>
 	<description>
@@ -15,7 +15,7 @@ This is just a test project, for testing out maven release plugin et. al.
 	<scm>
 		<connection>scm:git:https://github.com/zooldk/release-test.git</connection>
 		<developerConnection>scm:git:https://github.com/zooldk/release-test.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>test-0.1.12</tag>
   </scm>
 
 	<developers>
