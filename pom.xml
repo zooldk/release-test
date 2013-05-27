@@ -14,7 +14,7 @@ This is just a test project, for testing out maven release plugin et. al.
 	
 	<scm>
 		<connection>scm:git:https://github.com/zooldk/release-test.git</connection>
-    <tag>HEAD</tag>
+		<developerConnection>scm:git:https://github.com/zooldk/release-test.git</developerConnection>
   </scm>
 
 	<developers>
@@ -57,7 +57,7 @@ This is just a test project, for testing out maven release plugin et. al.
 	          <version>2.4.1</version>
 		      <configuration>
 		          <localCheckout>true</localCheckout>
-		          <!-- <pushChanges>false</pushChanges> -->
+		          <pushChanges>false</pushChanges>
 		      </configuration>
 	        </plugin>
 			<plugin>
